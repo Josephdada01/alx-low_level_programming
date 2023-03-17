@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - print string stdout 
- * return 0 if success
+ * main: - print string stdout 
+ * return: 0 if success
  */
 int main(void)
 {
