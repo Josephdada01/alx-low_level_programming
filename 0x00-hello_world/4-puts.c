@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * Description - printing out string standard out put
+ * Description - printing out string standard output on main
+ * return 0 if correct.
  */
 int main(void)
 {
