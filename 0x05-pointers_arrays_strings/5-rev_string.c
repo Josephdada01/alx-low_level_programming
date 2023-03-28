@@ -20,13 +20,13 @@ void rev_string(char *s)
 		s++;
 	}
 	end--; /* move the end pointer to the last*/
-	while (start < end)
+	while (start <= end)
 	{
 		temp = *start;
 		*start = *end;
 		*end = temp; /* swapping the character*/
 
-		start++;
-		end--;
+	start++;
+	end--;
 	}
 }
