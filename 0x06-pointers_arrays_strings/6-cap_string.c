@@ -2,35 +2,35 @@
 /**
  * *cap_string - afunction that change lower to uppercase strings
  *
- * @str: the string pointer
+ * @j: the string pointer
  *
  * Return: capital string
  *
  */
 
-char *cap_string(char *str)
+char *cap_string(char *j)
 {
 	int i;
 
 	i = 0;
 
-	if (str[0] >= 97 && str[0] <= 122)
+	if (j[0] >= 97 && j[0] <= 122)
 	{
 		return (0);
 	}
-	while (str[i] != '\0')
+	while (j[i] != '\0')
 	{
-		if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n'
-				|| str[i] == ',' || str[i] == ';' || str[i] == '.'
-				|| str[i] == '!' || str[i] == '?' || str[i] == '"'
-				|| str[i] == '(' || str[i] == ')' || str[i] == '{'
-				|| str[i] == '}')
+		if (j[i] == ' ' || j[i] == '\t' || j[i] == '\n'
+				|| j[i] == ',' || j[i] == ';' || j[i] == '.'
+				|| j[i] == '!' || j[i] == '?' || j[i] == '"'
+				|| j[i] == '(' || j[i] == ')' || j[i] == '{'
+				|| j[i] == '}')
 
-		if (str[i + 1] >= 97 && (str[i + 1] <= 122))
+		if (j[i + 1] >= 97 && (j[i + 1] <= 122))
 		{
-			(str[i + 1] = str[i + 1] - 32);
+			(j[i + 1] = j[i + 1] - 32);
 		}
 		i++;
 	}
-	return (str);
+	return (j);
 }
