@@ -10,7 +10,7 @@
 int main(int argc, __attribute__((unused))char *argv[])
 {
 	{
-		printf("This is the number of argumements: %d\n", argc - 1);
+		printf("This is the number of argumement: %d\n", argc - 1);
 	}
 	return (0);
 }
