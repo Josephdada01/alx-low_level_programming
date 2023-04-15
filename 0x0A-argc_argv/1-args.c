@@ -1,16 +1,13 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
- * main - a function that print its numbers
- * @argc: arguments count
- * @argv: arguments vector
+ * main - a programm that prints arguements passed
+ * @argc: the argument count
+ * @argv: the argument passed
  * Return: 0 on success
  */
 int main(int argc, __attribute__((unused))char *argv[])
 {
-	{
-		printf("This is the number of argumement: %d\n", argc - 1);
-	}
+	printf("%d\n", argc - 1);
 	return (0);
 }
