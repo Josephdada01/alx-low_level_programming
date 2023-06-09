@@ -3,6 +3,8 @@
 /**
  * _sqrt_recursion - a recursive function that returns the root of a number
  * @n: the given number
+ * @s: iterator
+ * @e: iterator
  * Return: 0 always
  */
 int new_sqrt_recursion(int n, int s, int e);
@@ -24,7 +26,6 @@ int _sqrt_recursion(int n)
 }
 /**
  * new_sqrt_recursion - a recursive function
- * @i: the iterator
  * @n: the given number
  * @s: the iterator
  * @e: the iterator
