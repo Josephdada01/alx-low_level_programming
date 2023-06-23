@@ -5,6 +5,7 @@
  * print_numbers - a function that print numbers
  * @separator: the pointer
  * @n: the number of integer passed
+ * @...: the remainng arguments
  * Return: the numbers
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
