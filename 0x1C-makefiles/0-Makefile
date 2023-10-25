@@ -1,0 +1,24 @@
+# Create your first Makefile.
+# Requirements:
+# name of the executable: school
+# rules: all
+# The all rule builds your executable
+# variables: no
+
+SRCS = main.c school.c
+
+# defining compiler and compilerflags
+CC = gcc
+CFLAGS = -Wall
+
+# defining the name of the executable
+EXECUTABLE = school
+
+# the all rule that builds the executable
+all: $(EXECUTABLE)
+# build the exeutable from source files
+$(EXECUTABLE): $(SRCS)
+	$(CC) $(CFLAGS) -o $(EXECUTABLE) $(SRCS)
+# clean rules to remove the executable files
+clean:
+	rm -f $(EXECUTABLE)
